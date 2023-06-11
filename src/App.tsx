@@ -6,7 +6,10 @@ import Projects from './Pages/Projects.tsx';
 
 function App() {
   return (
-    <div>
+    <div
+      className="bg-gradient-to-r from-black via-green-950 to-black
+    text-white h-screen w-screen"
+    >
       <Header />
       <Switch>
         <Route path="/about" component={ About } />
