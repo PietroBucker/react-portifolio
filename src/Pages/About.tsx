@@ -1,13 +1,12 @@
 export default function About() {
   return (
-    <div className="flex flex-col h-auto">
+    <div className="flex-col m-auto">
       <section
-        className="h-auto bg-green-700 shadow-md shadow-lime-600
-        bg-opacity-40 rounded-lg p-5 m-10 text-justify
-        "
+        className="bg-gradient-to-tl from-green-800 shadow-md shadow-lime-700
+        bg-opacity-40 rounded-lg m-6 mt-14 p-7"
       >
-        <h1 className="text-xl mb-3">Sobre Mim</h1>
-        <p className="leading-6">
+        <h1 className="text-2xl mb-5">Sobre Mim</h1>
+        <p className="leading-6 text-justify">
           Com 33 anos, minha paixão pelos jogos eletrônicos me levou a cursar Sistemas
           de Informações. Embora tenha me especializado em hardware, meu verdadeiro
           interesse sempre foi o desenvolvimento de jogos. Durante a pandemia,
@@ -19,16 +18,20 @@ export default function About() {
           jogos e suas aplicações práticas no dia a dia.
         </p>
       </section>
-      <h2>Minhas Habilidades</h2>
+      <div className="">
 
-      <h3>Hard Skills</h3>
-      <section>
-        <img src="" alt="" />
-      </section>
-      <h3>Soft Skills</h3>
-      <section>
-        <img src="" alt="" />
-      </section>
+        <h2>Minhas Habilidades</h2>
+
+        <h3>Hard Skills</h3>
+        <section>
+          teste
+          <img src="" alt="" />
+        </section>
+        <h3>Soft Skills</h3>
+        <section>
+          <img src="" alt="" />
+        </section>
+      </div>
     </div>
   );
 }

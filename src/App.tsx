@@ -8,7 +8,8 @@ function App() {
   return (
     <div
       className="bg-gradient-to-r from-black via-green-950 to-black
-    text-white h-auto w-auto"
+      text-white h-screen
+      sm:h-full "
     >
       <Header />
       <Switch>
