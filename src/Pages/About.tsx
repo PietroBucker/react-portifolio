@@ -1,13 +1,13 @@
 export default function About() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col h-auto">
       <section
         className="h-auto bg-green-700 shadow-md shadow-lime-600
         bg-opacity-40 rounded-lg p-5 m-10 text-justify
-        lg:text-2xl m-20 "
+        "
       >
-        <h1 className="text-3xl mb-3">Sobre Mim</h1>
-        <p className="lg:text leading-10">
+        <h1 className="text-xl mb-3">Sobre Mim</h1>
+        <p className="leading-6">
           Com 33 anos, minha paixão pelos jogos eletrônicos me levou a cursar Sistemas
           de Informações. Embora tenha me especializado em hardware, meu verdadeiro
           interesse sempre foi o desenvolvimento de jogos. Durante a pandemia,
