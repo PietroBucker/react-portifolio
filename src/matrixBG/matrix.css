@@ -1,0 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/matrix');
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  color: rgb(47, 228, 56);
+  background: #000;
+  /* position: fixed; */
+  text-shadow: 0 0 2px #fff,
+    0 0 42px rgb(13, 151, 71);
+}
+
+
+
+canvas {
+  display: block;
+  position: fixed ;
+}
+
+
+#root {
+  position: absolute;
+  z-index: 1;
+}

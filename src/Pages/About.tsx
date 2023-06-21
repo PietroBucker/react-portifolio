@@ -3,10 +3,11 @@ export default function About() {
     <div className="flex-col m-auto">
       <section
         className="bg-gradient-to-tl from-green-800 shadow-md shadow-lime-700
-        bg-opacity-40 rounded-lg m-6 mt-14 p-7"
+        bg-opacity-40 rounded-lg m-10 mt-14 p-7
+        lg:m-36"
       >
         <h1 className="text-2xl mb-5">Sobre Mim</h1>
-        <p className="leading-6 text-justify">
+        <p className="leading-6 text-justify lg:text-2xl lg:m-10">
           Com 33 anos, minha paixão pelos jogos eletrônicos me levou a cursar Sistemas
           de Informações. Embora tenha me especializado em hardware, meu verdadeiro
           interesse sempre foi o desenvolvimento de jogos. Durante a pandemia,

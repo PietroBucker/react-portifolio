@@ -7,8 +7,8 @@ import Projects from './Pages/Projects.tsx';
 function App() {
   return (
     <div
-      className="bg-gradient-to-r from-black via-green-950 to-black
-      text-white h-screen font-[Matrix]
+      className="bg-gradient-to-r from-transparent via-[#002C00] to-transparent
+      h-screen font-[Matrix]
       sm:h-full
       lg:h-screen"
     >
