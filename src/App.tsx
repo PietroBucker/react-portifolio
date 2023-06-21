@@ -8,7 +8,7 @@ function App() {
   return (
     <div
       className="bg-gradient-to-r from-transparent via-[#002C00] to-transparent
-      h-screen font-[Matrix]
+      h-screen font-[Matrix] fixed overflow-auto
       sm:h-full
       lg:h-screen"
     >

@@ -1,4 +1,7 @@
+import { complet, resumed } from '../pessoalInf.tsx';
+
 export default function About() {
+  const teste = true;
   return (
     <div className="flex-col m-auto">
       <section
@@ -8,15 +11,7 @@ export default function About() {
       >
         <h1 className="text-2xl mb-5">Sobre Mim</h1>
         <p className="leading-6 text-justify lg:text-2xl lg:m-10">
-          Com 33 anos, minha paixão pelos jogos eletrônicos me levou a cursar Sistemas
-          de Informações. Embora tenha me especializado em hardware, meu verdadeiro
-          interesse sempre foi o desenvolvimento de jogos. Durante a pandemia,
-          decidi voltar à área, agora com uma mente madura e determinação renovada.
-          Escolhi a Trybe para aprimorar meus conhecimentos e explorar também o campo
-          da Inteligência Artificial. Além disso, sou apaixonado por RPGs,
-          que desenvolvem habilidades criativas e de resolução de problemas.
-          Vamos embarcar nessa jornada juntos e explorar o mundo dos
-          jogos e suas aplicações práticas no dia a dia.
+          {teste ? resumed : complet}
         </p>
       </section>
       <div className="">
