@@ -3,7 +3,7 @@ const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
 // Setting the width and height of the canvas
-const mult = 1.2;
+const mult = 1.1;
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight * mult;
 
@@ -17,7 +17,7 @@ letters = letters.split('');
 window.addEventListener('orientationchange', () => {
   window.location.reload();
 });
-const fontSize = 12;
+const fontSize = 11;
 const columns = canvas.width / fontSize;
 
 // Setting up the drops
