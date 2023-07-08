@@ -1,7 +1,7 @@
 import { complet, resumed } from '../pessoalInf.tsx';
 
 export default function About() {
-  const teste = true;
+  const teste = false;
   return (
     <div className="flex-col m-auto">
       <section

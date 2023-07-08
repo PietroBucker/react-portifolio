@@ -3,6 +3,11 @@ import linkedin from '../../public/linkedin.png';
 import github from '../../public/github.png';
 import whatsapp from '../../public/whatsapp.png';
 
+export const card = `bg-gradient-to-tl from-green-800 shadow-lime-700
+shadow-[5px_10px_15px_-5px_rgba(0,0,0,0.3)]
+bg-opacity-40 rounded-lg m-5
+lg:w-2/5 lg:pb-5`;
+
 export default function Home() {
   return (
     <div
