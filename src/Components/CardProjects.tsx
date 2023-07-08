@@ -12,7 +12,7 @@ const CardProjects: React.FC<Props> = ({ value }) => {
     lg:flex-row lg:flex-wrap lg:w-1/1 lg:justify-center"
     >
       {value.map((project) => (
-        <div key={ project.id } className={ `${card} md:w-1/2 p-5 lg:w-1/4` }>
+        <div key={ project.id } className={ `${card} md:w-1/2 p-5 lg:w-3/12` }>
           <p className="mb-4">
             {project.name}
           </p>
