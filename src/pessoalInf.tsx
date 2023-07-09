@@ -39,3 +39,10 @@ você interpreta um personagem que precisa resolver problemas usando criatividad
 e raciocínio da melhor forma possível, pois você pode perder seu personagem.
 Isso acaba trazendo um desenvolvimento muito bom para o uso no dia a dia. Então,
 vamos?`;
+
+export const hardSkills = ['JavaScript', 'TypeScript', 'HTML', 'CSS',
+  'React JS', 'MySQL', 'Node JS', 'Expres JS', 'POO', 'Solid'];
+
+export const softSkills = ['Vontade de Aprender', 'Trabalho em Equipe', 'Pro-Atividade',
+  'Inteligencia Emocional', 'Empatia', 'Growing Mindset',
+  'Persistência', 'Adaptabilidade', 'Mente Aberta', 'Integridade'];
