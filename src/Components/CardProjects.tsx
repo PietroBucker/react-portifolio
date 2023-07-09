@@ -8,7 +8,7 @@ type Props = {
 const CardProjects: React.FC<Props> = ({ value }) => {
   return (
     <div
-      className="flex flex-col items-center text-center
+      className="flex flex-col items-center text-center w-4/5 lg:items-stretch
     lg:flex-row lg:flex-wrap lg:w-1/1 lg:justify-center"
     >
       {value.map((project) => (
@@ -17,7 +17,11 @@ const CardProjects: React.FC<Props> = ({ value }) => {
             {project.name}
           </p>
           <a href={ project.html_url } target="blank">
-            <img src={ project.image } alt={ project.name } />
+            <img
+              src={ project.image }
+              alt={ project.name }
+              className="m-auto h-2/3 w-2/3"
+            />
           </a>
         </div>
       ))}
