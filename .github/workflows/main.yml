@@ -30,5 +30,4 @@ jobs:
         run: railway run
         # env:
         #   RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
-        github:
-          RAILWAY_TOKEN: ${{ github.repository }}
+        github: ${{ github.repository }}
