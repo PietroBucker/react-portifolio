@@ -5,7 +5,7 @@ bg-opacity-40 rounded-lg w-1/2 p-5
 sm:w-1/3 lg:w-1/6`;
 
 export default function About() {
-  const teste = false;
+  const teste = true;
   return (
     <div className="flex-col m-auto">
       <section
